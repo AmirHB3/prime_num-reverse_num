@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مغلوب عدد</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form onsubmit="event.preventDefault(); reverseNumber();"> <!-- event.preventDefault() To prevent form submission -->
+        <h1>برنامه مغلوب عدد</h1>
+        <label for="numberInput">عدد خود را وارد کنید:</label>
+        <input type="text" id="numberInput" required />
+        <button type="submit">محاسبه معکوس</button>
+        <h2 id="result"></h2>
+    </form>
+    
+    <script src="reverse_num.js"></script>
+</body>
+</html>
